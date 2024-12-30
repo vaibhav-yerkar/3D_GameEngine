@@ -26,5 +26,5 @@ cmake ../
 make
 ```
 
-- After above step a executable named `__gameEngine__` will be formed in the build folder
+- After above step a executable named `gameEngine` will be formed in the build folder
 - Run the executable to run the Game Engine
