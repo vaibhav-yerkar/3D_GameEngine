@@ -4,6 +4,7 @@
 
 - CMAKE
 - GLEW
+- GLM
 - SDL
 
 ## For installing depenndencies on Linux/Unix based OS (use your package manager):
@@ -25,5 +26,5 @@ cmake ../
 make
 ```
 
-- After above step a executable named _gameEngine_ will be formed in the build folder
+- After above step a executable named `__gameEngine__` will be formed in the build folder
 - Run the executable to run the Game Engine
