@@ -8,14 +8,22 @@
 
 ## For installing depenndencies on Linux/Unix based OS (use your package manager):
 
-Eg., for Mac (using homebrew) : `brew install cmake sdl2 glew glm`
+Eg., for Mac (using homebrew) :
+
+```
+brew install cmake sdl2 glew glm
+```
 
 ## Building the Project
 
 - Open Terminal and run :
-  `mkdir build
+
+```
+mkdir build
 cd build
 cmake ../
-make`
+make
+```
+
 - After above step a executable named _gameEngine_ will be formed in the build folder
 - Run the executable to run the Game Engine
