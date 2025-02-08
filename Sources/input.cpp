@@ -1,8 +1,8 @@
 #include "../Header/input.h"
 #include "../Header/sdl_requests.h"
-#include <SDL.h>
-#include <SDL_events.h>
-#include <SDL_mouse.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_events.h>
+#include <SDL2/SDL_mouse.h>
 
 const static int NUM_KEYS = 512;
 const static int NUM_MOUSEBUTTONS = 256;
