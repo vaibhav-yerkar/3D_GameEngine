@@ -1,4 +1,4 @@
-#include "../Header/quaternion.h"
+#include "quaternion.h"
 #include <math.h>
 
 #include <math.h>

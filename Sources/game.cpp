@@ -1,11 +1,11 @@
-#include "../Header/game.h"
-#include "../Header/basicShader.h"
-#include "../Header/custom_time.h"
-#include "../Header/input.h"
-#include "../Header/phongShader.h"
-#include "../Header/util.h"
-#include "../Header/window.h"
+#include "basicShader.h"
+#include "custom_time.h"
+#include "game.h"
+#include "input.h"
+#include "phongShader.h"
 #include "texture.h"
+#include "util.h"
+#include "window.h"
 
 #include <math.h>
 

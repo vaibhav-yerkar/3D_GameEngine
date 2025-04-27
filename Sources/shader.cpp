@@ -1,5 +1,5 @@
-#include "../Header/shader.h"
-#include "../Header/util.h"
+#include "shader.h"
+#include "util.h"
 #include <GL/glew.h>
 #include <cassert>
 #include <cstdio>

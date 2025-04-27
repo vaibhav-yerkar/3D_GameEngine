@@ -1,5 +1,5 @@
-#include "../Header/window.h"
-#include "../Header/sdl_requests.h"
+#include "sdl_requests.h"
+#include "window.h"
 #include <GL/glew.h>
 #include <SDL2/SDL.h>
 
@@ -27,8 +27,8 @@ void Window::create(int width, int height, const std::string& title)
   SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 16);
   SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 
-  SDLCreateWindow(title.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height,
-                  false);
+  SDLCreateWindow(title.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+                  width, height, false);
 
   GLenum res = glewInit();
   if (res != GLEW_OK)

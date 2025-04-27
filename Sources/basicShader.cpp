@@ -1,5 +1,5 @@
-#include "../Header/basicShader.h"
-#include "../Header/util.h"
+#include "basicShader.h"
+#include "util.h"
 
 BasicShader::BasicShader()
 {

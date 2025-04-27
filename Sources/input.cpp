@@ -1,5 +1,5 @@
-#include "../Header/input.h"
-#include "../Header/sdl_requests.h"
+#include "input.h"
+#include "sdl_requests.h"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_events.h>
 #include <SDL2/SDL_mouse.h>

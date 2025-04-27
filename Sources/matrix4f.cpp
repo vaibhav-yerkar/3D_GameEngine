@@ -1,5 +1,5 @@
-#include "../Header/matrix4f.h"
-#include "../Header/util.h"
+#include "matrix4f.h"
+#include "util.h"
 #include <math.h>
 
 void Matrix4f::initIdentity()

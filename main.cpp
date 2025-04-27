@@ -1,9 +1,9 @@
-#include "Header/main.h"
-#include "Header/custom_time.h"
-#include "Header/input.h"
-#include "Header/renderUtil.h"
-#include "Header/util.h"
-#include "Header/window.h"
+#include "custom_time.h"
+#include "input.h"
+#include "main.h"
+#include "renderUtil.h"
+#include "util.h"
+#include "window.h"
 #include <stdio.h>
 
 const static int WIDTH = 800;

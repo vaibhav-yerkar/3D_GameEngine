@@ -1,5 +1,5 @@
-#include "../Header/texture.h"
-#include "../Header/stb_image.h"
+#include "stb_image.h"
+#include "texture.h"
 #include <iostream>
 
 Texture* Texture::m_lastBind = 0;

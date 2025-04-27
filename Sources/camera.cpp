@@ -1,7 +1,7 @@
-#include "../Header/camera.h"
-#include "../Header/custom_time.h"
-#include "../Header/input.h"
-#include "../Header/window.h"
+#include "camera.h"
+#include "custom_time.h"
+#include "input.h"
+#include "window.h"
 
 Camera::Camera(Vector3f pos, Vector3f forward, Vector3f up)
 {
